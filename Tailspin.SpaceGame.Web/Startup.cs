@@ -12,7 +12,9 @@ namespace TailSpin.SpaceGame.Web
     {
         public Startup(IConfiguration configuration)
         {
+            /* OK */
             Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
